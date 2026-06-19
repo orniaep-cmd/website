@@ -1,0 +1,97 @@
+.rainbow {
+    padding: 0;
+    display: block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: pink;
+    animation: rainbow_animation 4s ease-in-out infinite;
+    background-size: 400%;
+    box-sizing: border-box;
+}
+
+@keyframes rainbow_animation {
+    0%,
+    100% {
+        background-position: 0 0
+    }
+    50% {
+        background-position: 100% 0
+    }
+}
+
+.rainbow_text_1 {
+    background-image: linear-gradient(to right, #2E3192, #1BFFFF) !important;
+}
+
+.rainbow_text_2 {
+    background-image: linear-gradient(to right, #614385, #00CDAC) !important;
+}
+
+.rainbow_text_3 {
+    background-image: linear-gradient(to right, #66f, #09f, #0f0, #f39, #66f) !important;
+}
+
+.rainbow_text_4 {
+    background-image: linear-gradient(to right, #DD2476, #FF512F, #ED1E79, #662D8C) !important;
+}
+
+.rainbow_tenacity {
+    background-image: linear-gradient(to right, #EF83D7, #2EB8F0) !important;
+}
+
+.rainbow_rat {
+    background-image: linear-gradient(45deg, #ef8383, #f02e2e) !important;
+}
+
+.rainbow_rat2 {
+    background-image: linear-gradient(45deg, #efa583, #f0652e) !important;
+}
+
+.rainbow_forge {
+    background-image: linear-gradient(45deg, #efe883, #edf02e) !important;
+    color: black !important;
+}
+
+.rainbow_ct {
+    background-image: linear-gradient(45deg, #B45AF7, #7F2EBC, #4D1974) !important;
+}
+
+.rainbow_fabric {
+    background-image: linear-gradient(45deg, #ffffff, #74b4f0) !important;
+    color: black !important;
+}
+
+.rainbow_weave {
+    background-image: linear-gradient(45deg, #ECE0CD, #CDB787) !important;
+    color: black !important;
+}
+
+.rainbow_external {
+    background-image: linear-gradient(45deg, #a41bff, #540268) !important;
+}
+
+.rainbow_internal {
+    background-image: linear-gradient(45deg, #ff1b81, #680233) !important;
+}
+
+.rainbow_cracked {
+    background-image: linear-gradient(45deg, #a0f5a7, #127c04) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.color_dark {
+    background-color: #000 !important;
+    background-image: none !important;
+}
+
+.rainbow_unc {
+    background-color: #fc0343 !important;
+    background-image: none !important;
+}
+
+.rainbow_byfron {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
